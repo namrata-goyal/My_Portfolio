@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Cryptoverse",
+    "imageSrc": "projects/project1.png",
+    "description": "A crypto tracker app designed to provide real-time cryptocurrency data.",
+    "skills": ["React", "Node.js", "Express"],
+    "demo": "https://crypto-tracker-appx.netlify.app/",
+    "source": "https://github.com/namrata-goyal/cryptoverse_nam"
+  },
+  {
+    "title": "Myntra Designer Connect",
+    "imageSrc": "projects/project1.png",
+    "description": "A platform to connect users with designers, real time communication.",
+    "skills": ["React", "Socket.IO", "Express"],
+    "demo": "https://668fb45ec703a22fe04d7a86--brilliant-gumdrop-962767.netlify.app/",
+    "source": "https://github.com/namrata-goyal/myntradesign"
+  },
+  {
+    "title": "Blogify",
+    "imageSrc": "projects/project1.png",
+    "description": "A blogging platform for users to create and manage their blog posts.",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "demo": "URL to be provided",
+    "source": "https://github.com/namrata-goyal/Blogify"
+  }
+]

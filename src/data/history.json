@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Hackathon Participant",
+    "organisation": "Myntra We For She Hackathon",
+    "startDate": "Feb, 2024",
+    "endDate": "Feb, 2024",
+    "experiences": [
+      "Built a prototype to connect users with designers",
+      "Demonstrated skills in frontend design and user experience"
+    ],
+    "projectLink": "https://668fb45ec703a22fe04d7a86--brilliant-gumdrop-962767.netlify.app/",
+    "imageSrc": "about/cursoricon.png"
+  },
+  {
+    "role": "Executive Member",
+    "organisation": "Unnat Bharat Abhiyan",
+    "startDate": "Jan, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Led initiatives for rural development",
+      "Showcased time management across technical and community work"
+    ],
+    "imageSrc": "about/servericon.png"
+  }
+]

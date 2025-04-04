@@ -1,0 +1,105 @@
+/* Contact.css */
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Reduced gap for better alignment */
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.link img {
+  width: 35px; /* Adjusted icon size */
+  height: 35px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  transform: translateY(-3px);
+}
+
+.link:hover a {
+  color: var(--color-primary);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    align-items: center; /* Centering content */
+    gap: 30px;
+    padding: 40px 5%;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links {
+    align-items: center;
+    width: 100%;
+  }
+
+  .link {
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .link img {
+    width: 30px; /* Slightly reduced for better mobile fit */
+    height: 30px;
+  }
+
+  .link a {
+    font-size: 22px;
+  }
+}
